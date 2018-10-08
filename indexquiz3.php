@@ -4,20 +4,20 @@
 
 switch(true){
     case ($temperature <= 20):
-    echo "It is really cold today";
-    break;
+            echo "It is really cold today";
+            break;
     case($temperature >20 && $temperature <=30):
-    echo "The weather is just perfect";
-    break;
+             echo "The weather is just perfect";
+            break;
     case ($temperature >=30 && $temperature < 40):
-    echo "It is so hot today";
-    break;
+            echo "It is so hot today";
+            break;
     case ($temperature >=40):
-    echo "Am I in the Sahara Desert?!";
-    break;
+            echo "Am I in the Sahara Desert?!";
+            break;
     default:
-    echo "The weather is neither cold or hot";
-    break;
+            echo "The weather is neither cold or hot";
+            break;
 }
 
 
