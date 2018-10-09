@@ -8,8 +8,8 @@
     }
 echo "<br>";
 //the second question
-for($a = 2; $a < 50; $a = $a+2){
-    echo $a.'<br>';
+    for($a = 2; $a < 50; $a = $a+2){
+        echo $a.'<br>';
 }
 
 ?>
